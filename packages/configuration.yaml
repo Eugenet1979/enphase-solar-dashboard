@@ -1,1 +1,25 @@
+###############################################################################
+# Enphase Solar Dashboard Configuration
+#
+# Edit this file to match your Home Assistant installation.
+###############################################################################
 
+envoy:
+
+  production_power: sensor.envoy_202405009829_current_power_production
+
+  consumption_power: sensor.envoy_202405009829_current_power_consumption
+
+  grid_power: sensor.envoy_202405009829_current_net_power_consumption
+
+  production_today: sensor.envoy_202405009829_energy_production_today
+
+  consumption_today: sensor.envoy_202405009829_energy_consumption_today
+
+  production_week: sensor.envoy_202405009829_energy_production_last_seven_days
+
+  consumption_week: sensor.envoy_202405009829_energy_consumption_last_seven_days
+
+  lifetime_production: sensor.envoy_202405009829_lifetime_energy_production
+
+  lifetime_consumption: sensor.envoy_202405009829_lifetime_energy_consumption
