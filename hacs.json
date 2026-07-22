@@ -1,3 +1,23 @@
-git add .
-git commit -m "Initial project documentation"
-git push
+{
+  "name": "Enphase Solar Dashboard Pro",
+  "content_in_root": false,
+  "filename": "dashboards/dashboard.yaml",
+  "homeassistant": "2026.7.0",
+  "render_readme": true,
+  "country": [
+    "US",
+    "CA",
+    "AU",
+    "GB",
+    "NZ",
+    "DE",
+    "FR",
+    "NL",
+    "BE",
+    "ES",
+    "IT",
+    "SE",
+    "NO",
+    "DK"
+  ]
+}
