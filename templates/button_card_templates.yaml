@@ -1,1 +1,59 @@
+button_card_templates:
 
+  inverter:
+
+    show_icon: false
+    show_state: true
+    show_name: true
+
+    tap_action:
+      action: more-info
+
+    hold_action:
+      action: navigate
+      navigation_path: /history
+
+    styles:
+
+      card:
+        - border-radius: 16px
+        - padding: 10px
+        - font-size: 14px
+        - transition: all 0.3s ease
+        - box-shadow: 0px 3px 10px rgba(0,0,0,.35)
+
+      grid:
+        - grid-template-areas: '"n" "s"'
+        - grid-template-columns: 1fr
+        - grid-template-rows: auto auto
+
+      name:
+        - justify-self: center
+        - font-weight: bold
+        - font-size: 13px
+
+      state:
+        - justify-self: center
+        - font-size: 20px
+        - font-weight: bold
+
+    state:
+
+      - operator: ">"
+        value: 300
+        color: "#2ECC71"
+
+      - operator: ">"
+        value: 200
+        color: "#8BC34A"
+
+      - operator: ">"
+        value: 100
+        color: "#FFC107"
+
+      - operator: "<="
+        value: 100
+        color: "#F44336"
+
+      - operator: default
+        color: "#9E9E9E"
