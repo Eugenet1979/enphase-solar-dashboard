@@ -1,1 +1,40 @@
+array:
 
+  rows: 11
+
+  columns: 2
+
+  inverters:
+
+    - sensor.inverter_542415016838
+    - sensor.inverter_542415016875
+
+    - sensor.inverter_542415016328
+    - sensor.inverter_542415016549
+
+    - sensor.inverter_542415016882
+    - sensor.inverter_542415016447
+
+    - sensor.inverter_542415017640
+    - sensor.inverter_542415017644
+
+    - sensor.inverter_542415016186
+    - sensor.inverter_542415016456
+
+    - sensor.inverter_542415016463
+    - sensor.inverter_542415017860
+
+    - sensor.inverter_542415016924
+    - sensor.inverter_542415016621
+
+    - sensor.inverter_542415017661
+    - sensor.inverter_542415017845
+
+    - sensor.inverter_542415016466
+    - sensor.inverter_542415016402
+
+    - sensor.inverter_542415017517
+    - sensor.inverter_542415016701
+
+    - sensor.inverter_542415017693
+    - sensor.inverter_542415017840
