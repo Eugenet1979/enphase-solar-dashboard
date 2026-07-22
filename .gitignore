@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Home Assistant
+.storage/
+deps/
+tts/
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
